@@ -1,8 +1,8 @@
 package com.springboot.project.lovable_clone.dto.auth;
 
-public record SignupRequest(
-        String name,
+public record LoginRequest(
         String email,
         String password
 ) {
+
 }

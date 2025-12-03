@@ -1,4 +1,9 @@
 package com.springboot.project.lovable_clone.dto.auth;
 
-public record UserProfileResponse() {
+public record UserProfileResponse(
+        Long id,
+        String name,
+        String email,
+        String avatarUrl
+) {
 }
